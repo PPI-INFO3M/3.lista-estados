@@ -1,0 +1,33 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+  color: rgb(44, 44, 44);
+}
+
+header {
+  margin-top: 10px;
+
+}
+
+header>h1 {
+  margin-bottom: 5px;
+  font-size: 36px;
+}
+
+header>p {
+  font-size: 16px;
+}
+
+p>span {
+  text-decoration: underline;
+}
+
+.grade-estados {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 2rem;
+}
